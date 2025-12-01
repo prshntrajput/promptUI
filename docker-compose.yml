@@ -1,0 +1,10 @@
+name : promptui
+services :
+  db:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POST_DB=postgres
+    ports:
+      - 5431:5432
