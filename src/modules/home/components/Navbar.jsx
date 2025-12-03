@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="max-w-5xl mx-auto w-full flex justify-between items-center">
         <Link href={"/"} className="flex items-center gap-2">
           <Image
-            src={"/logo.png"}
+            src={"/logo2.png"}
             alt="Vibe"
             width={60}
             height={50}
