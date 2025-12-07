@@ -13,8 +13,8 @@ import { useAuth } from "@clerk/nextjs";
 import ProjectHeader from "./Project-Header";
 import MessageContainer from "./Message-Container";
 import { Code, CrownIcon, EyeIcon } from "lucide-react";
-import FragmentWeb from "./fragment-web";
-import { FileExplorer } from "./file-explorer";
+import FragmentWeb from "./Fragment-Web";
+import { FileExplorer } from "./File-Explorer";
 
 
 const ProjectView = ({ projectId }) => {
