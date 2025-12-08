@@ -2,6 +2,8 @@ import { onBoardUser } from '@/modules/auth/actions'
 import Navbar from '@/modules/home/components/Navbar'
 import React from 'react'
 
+export const dynamic = 'force-dynamic'
+
 const Layout = async({children}) => {
   await onBoardUser()
   return (
